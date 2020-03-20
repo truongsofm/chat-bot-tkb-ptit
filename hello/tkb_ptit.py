@@ -101,6 +101,22 @@ class extractTKB_PTIT():
                 headers=HEADERS,
                 type='text'
             )
+            if """window.onload=function(){alert('Server đang tải lại dữ liệu. Vui lòng trở lại sau 15 phút!');}""" in content:
+                return {
+                    "messages": [
+                        {
+                            "attachment": {
+                                "type": "image",
+                                "payload": {
+                                    "url": "https://i.postimg.cc/Qx10M7Cz/Capture.png"
+                                }
+                            }
+                        },
+                        {
+                            'text':"Server đang tải lại dữ liệu bạn nhỏ ạ 😕"
+                        }
+                    ],
+                }
             soup = get_soup(content, 'html5lib')
             span_captcha = soup.find('span', attrs={'id': 'ctl00_ContentPlaceHolder1_ctl00_lblCapcha'})
             if span_captcha:
