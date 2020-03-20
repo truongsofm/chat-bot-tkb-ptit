@@ -4,7 +4,6 @@
     <list default="true" id="195822d2-65f5-45c9-ace8-e5d450fb9ffc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/tkb_ptit.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/tkb_ptit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phimmoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/phimmoi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,7 @@
       <workItem from="1584369045549" duration="3499000" />
       <workItem from="1584520374641" duration="2662000" />
       <workItem from="1584605038178" duration="5986000" />
-      <workItem from="1584683940039" duration="1153000" />
+      <workItem from="1584683940039" duration="2061000" />
     </task>
     <servers />
   </component>
