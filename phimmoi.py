@@ -218,6 +218,7 @@ class extractPhimMoi():
             except AttributeError:
                 c = language
             print(c)
+            print()
             content = get_req(url=self._api_script, headers=self._headers, type='text', params={
                 'episodeid': episodeid,
                 'number': number,
@@ -225,7 +226,7 @@ class extractPhimMoi():
                 'filmid': filmid,
                 'filmslug': slug,
                 'type': 'javascript',
-                '_h':'4'
+                '_h':'3'
             })
             all_server = parse_json(search_regex(r'\"thirdParty\"\:(\[.+?\])\}', content), transform_source=js_to_json)
             if all_server:
@@ -241,16 +242,16 @@ class extractPhimMoi():
                 f.update({
                     removeCharacters(c): all_server
                 })
-        return {
-            'title': removeCharacters(title.text),
-            'slug': slug,
-            'sources': f
-        }
-        # return json.dumps({
+        # return {
         #     'title': removeCharacters(title.text),
         #     'slug': slug,
         #     'sources': f
-        # }, indent=4, ensure_ascii=False)
+        # }
+        return json.dumps({
+            'title': removeCharacters(title.text),
+            'slug': slug,
+            'sources': f
+        }, indent=4, ensure_ascii=False)
 
     def extract_pzc(self, url_pzc):
         if not url_pzc:
@@ -285,5 +286,5 @@ class extractPhimMoi():
         return
 
 
-a = extractPhimMoi(url='http://www.phimmoi.net/phim/nga-re-tu-than-3-bo-mac-cho-chet-186/xem-phim-3769.html')
+a = extractPhimMoi(url='http://www.phimmoi.net/phim/diep-vien-an-danh-8593/xem-phim.html')
 print(a.run())

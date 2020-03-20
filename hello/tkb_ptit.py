@@ -146,7 +146,7 @@ class extractTKB_PTIT():
                 for k, v in da.items():
                     t += f'+ {k}  :  {v}\n'
                 textout += f"""\n******* Kíp {idx + 1} *******\n\n{t}"""
-            textout += '\n - FB : 100011734236090'
+            textout += '\n- FB : 100011734236090'
             return {
                 "messages": [
                     {
