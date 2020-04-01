@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="195822d2-65f5-45c9-ace8-e5d450fb9ffc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-getting-started.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-getting-started.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/tkb_ptit.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/tkb_ptit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +38,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>&lt;tbody</find>
-      <find>&lt;tbody&gt;</find>
-      <find>&lt;/tbody&gt;</find>
-      <find>width:90px</find>
-      <find>csrf-token</find>
-      <find>HEADERS</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>width:100%</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -62,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -140,7 +131,8 @@
       <workItem from="1584369045549" duration="3499000" />
       <workItem from="1584520374641" duration="2662000" />
       <workItem from="1584605038178" duration="5986000" />
-      <workItem from="1584683940039" duration="3031000" />
+      <workItem from="1584683940039" duration="4554000" />
+      <workItem from="1585711127773" duration="749000" />
     </task>
     <servers />
   </component>
@@ -164,10 +156,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1345" height="100" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584611182849" />
-    <state x="184" y="11" key="SettingsEditor" timestamp="1584605235031">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1585711178852">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1584605235031" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1585711178852" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/tkb_ptit$1.coverage" NAME="1 Coverage Results" MODIFIED="1584607835952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

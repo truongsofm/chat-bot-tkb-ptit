@@ -20,8 +20,14 @@ def get_tkb_ptit(request, *args, **kwargs):
         else:
             info = None
         if info:
-            return JsonResponse(info)
-        return JsonResponse({'message': 'error'})
+            return JsonResponse(info, json_dumps_params={
+                "ensure_ascii": False,
+                'indent': 4
+            })
+        return JsonResponse({'message': 'error'}, json_dumps_params={
+            "ensure_ascii": False,
+            'indent': 4
+        })
     if request.method == 'POST':
         _type = kwargs.get('type')
         data_req = request.POST
@@ -34,5 +40,11 @@ def get_tkb_ptit(request, *args, **kwargs):
         else:
             info = None
         if info:
-            return JsonResponse(info)
-        return JsonResponse({'message': 'error'})
+            return JsonResponse(info, json_dumps_params={
+                "ensure_ascii": False,
+                'indent': 4
+            })
+        return JsonResponse({'message': 'error'}, json_dumps_params={
+            "ensure_ascii": False,
+            'indent': 4
+        })
