@@ -1,6 +1,11 @@
 # ***chat-bot-tkb-ptit***
 **Chat bot xem tkb ptit**
 
+# ***Cấu trúc***
+- Api code bằng django python3.x, server Heroku
+- Chat bot sử dụng chatfuel
+- Định dạng json theo chatfule (https://docs.chatfuel.com/en/articles/735122-json-api)[https://docs.chatfuel.com/en/articles/735122-json-api]
+
 # ***demo***
 
 **Link chatbot: [https://m.me/108383414116730](https://m.me/108383414116730)** 
