@@ -4,7 +4,7 @@
 # ***Cấu trúc***
 - Api code bằng django python3.x, server Heroku
 - Chat bot sử dụng chatfuel
-- Định dạng json theo chatfule (https://docs.chatfuel.com/en/articles/735122-json-api)[https://docs.chatfuel.com/en/articles/735122-json-api]
+- Định dạng json theo chatfule [https://docs.chatfuel.com/en/articles/735122-json-api](https://docs.chatfuel.com/en/articles/735122-json-api)
 
 # ***demo***
 
